@@ -1,4 +1,4 @@
-CRUD Operations and To-Do List:
+  To-Do List:
 
 Create:
 
@@ -16,3 +16,19 @@ Delete:
 
 Functionality: This allows the user to remove a to-do item from the list.
 How it works: The user can click a "delete" button next to a task, and the task will be removed from the list permanently.
+
+Features to Add in a To-Do List APP
+
+Task Prioritization:
+
+Due Dates and Deadlines:
+
+
+Categories/Tags:
+
+
+User Authentication:
+
+Drag and Drop:
+
+Task Subtasks:

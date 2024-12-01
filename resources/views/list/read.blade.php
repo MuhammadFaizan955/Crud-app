@@ -60,19 +60,21 @@
                 @endif
             </td>
             <td>
-                <a href="{{ route('task.show', $fais->id) }}" class="btn btn-outline-primary btn-sm">View</a>
+            <a href="{{ route('task.show', $fais->id) }}" class="btn btn-outline-info btn-sm ">View</a>
+
 
                 <form action="{{ route('task.destroy', $fais->id) }}" method="POST" style="display:inline;">
                     @csrf
                     @method('DELETE')
-                    <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                     <button type="submit" class="btn btn-outline-danger btn-sm">Delete</button>
                 </form>
 
-                <a href="{{ route('task.edit', $fais->id) }}" class="btn btn-primary btn-sm">Edit</a>
+                  <a href="{{ route('task.edit', $fais->id) }}" class="btn btn-outline-primary btn-sm">Edit</a>
             </td>
         </tr>
         @endforeach
         @endif
     </table>
+            {{ $student->links() }}
 </body>
 </html>

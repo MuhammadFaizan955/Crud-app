@@ -15,7 +15,7 @@ class FaisController extends Controller
     public function index()
     {
         //
-        $student = fais::all();
+        $student = fais::simplepaginate(6);
         return view('list.read', compact('student'));
     }
 
